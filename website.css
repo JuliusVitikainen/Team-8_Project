@@ -13,3 +13,12 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+.sivupalkki {
+	float: left;
+	width: 50px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #9ACD32;
+	padding: 20px;
+	margin-left: 50px
+}
