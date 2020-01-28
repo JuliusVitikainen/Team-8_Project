@@ -19,17 +19,21 @@ body {
 h1 {
   color: black;
   text-align: center;
+  font-size: 50px;
 }
 h2 {
+
 	font-size: 20px;
 	margin: 0 12%;
 	letter-spacing: .1em;
+	font-size: 40px;
 }
 h3	{
 	margin: 0 2%;
 	font-family:serif;
 	font-weight:normal;
 	float: left;
+	font-size: 30px;
 }
 h4	{
 	margin: 0 10%;
@@ -42,9 +46,13 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+
+a {
+	font-size: 30px;
+}
 .navigaatio {
 	float: left;
-	width: 100px;
+	width: auto;
 	height: auto;
 	border-radius: 10px;
 	background-color: #9ACD32;
@@ -56,4 +64,15 @@ p {
 	font-style: italic; 
 	font-size:18px;
 	margin-left: 220px
+
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }
+
+  img {
+	width: 100%;
+	height: auto;
+  }
 
