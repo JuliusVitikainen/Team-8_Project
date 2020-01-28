@@ -19,26 +19,32 @@ body {
 h1 {
   color: black;
   text-align: center;
+  font-size: 50px;
 }
 h2 {
-	font-size: 1em;
 	margin: 0 12%;
 	letter-spacing: .1em;
+	font-size: 40px;
 }
 h3	{
 	margin: 0 2%;
 	font-family:serif;
 	font-weight:normal;
 	float: left;
+	font-size: 30px;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
 }
+
+a {
+	font-size: 30px;
+}
 .navigaatio {
 	float: left;
-	width: 100px;
+	width: auto;
 	height: auto;
 	border-radius: 10px;
 	background-color: #9ACD32;

@@ -19,32 +19,41 @@ body {
 h1 {
   color: black;
   text-align: center;
+  font-size: 50px;
 }
 h2 {
-	font-size: 1em;
 	margin: 0 12%;
 	letter-spacing: .1em;
+	font-size: 40px;
 }
 h3	{
 	margin: 0 2%;
 	font-family:serif;
 	font-weight:normal;
 	float: left;
+	font-size: 30px;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
 }
+<<<<<<< HEAD
+=======
+  a {
+	font-size: 30px;
+}
+>>>>>>> 35e0292b83f31409de251799339ff15595a3da81
 
 .navigaatio {
 	float: left;
-	width: 100px;
+	width: auto;
 	height: auto;
 	border-radius: 10px;
 	background-color: #9ACD32;
 	padding: 20px;
 	margin-left: 50px
+		
 }
 
 @media only screen and (max-width: 600px) {
