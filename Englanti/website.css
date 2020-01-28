@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+	font-size: 1em;
+	margin: 0 12%;
+	letter-spacing: .1em;
+}
+h3	{
+	margin: 0 2%;
+	font-family:serif;
+	font-weight:normal;
+	float: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.navigaatio {
+	float: left;
+	width: 100px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #9ACD32;
+	padding: 20px;
+	margin-left: 50px
+}
+
