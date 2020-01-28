@@ -33,7 +33,7 @@ h3	{
 	font-family:serif;
 	font-weight:normal;
 	float: left;
-	font-size: 30px;
+	font-size: 18px;
 }
 h4	{
 	margin: 0 10%;
@@ -48,7 +48,7 @@ p {
 }
 
 a {
-	font-size: 30px;
+	font-size: 20px;
 }
 .navigaatio {
 	float: left;
@@ -64,6 +64,7 @@ a {
 	font-style: italic; 
 	font-size:18px;
 	margin-left: 220px
+}
 
 @media only screen and (max-width: 600px) {
 	body {
@@ -74,5 +75,6 @@ a {
   img {
 	width: 100%;
 	height: auto;
+	max-width:500px;
   }
 
