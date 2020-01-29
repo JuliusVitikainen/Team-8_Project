@@ -3,25 +3,29 @@
 body {
   background-color: lightblue;
 }
-
 .otsikko {
 	overflow: hidden;
 	padding: 20px 10px;
 }
-
 .otsikko img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 10%;
 }
-
+.aukioloajat {
+	font-family: Georgia; 
+	font-style: italic; 
+	font-size:18px;
+	margin-left: 220px
+}
 h1 {
   color: black;
   text-align: center;
   font-size: 50px;
 }
 h2 {
+
 	margin: 0 12%;
 	letter-spacing: .1em;
 	font-size: 40px;
@@ -31,19 +35,23 @@ h3	{
 	font-family:serif;
 	font-weight:normal;
 	float: left;
-	font-size: 30px;
+	font-size: 18px;
 }
-
+h4	{
+	margin: 0 10%;
+	font-family:serif;
+	font-weight:normal;
+	font-size:20px;
+}
 p {
   font-family: verdana;
   font-size: 20px;
 }
-<<<<<<< HEAD
-=======
+
   a {
-	font-size: 30px;
+	font-size: 20px;
 }
->>>>>>> 35e0292b83f31409de251799339ff15595a3da81
+
 
 .navigaatio {
 	float: left;
@@ -65,5 +73,6 @@ p {
   img {
 	width: 100%;
 	height: auto;
+	max-width:500px
   }
 

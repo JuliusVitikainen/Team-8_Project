@@ -22,6 +22,8 @@ h1 {
   font-size: 50px;
 }
 h2 {
+
+	font-size: 20px;
 	margin: 0 12%;
 	letter-spacing: .1em;
 	font-size: 40px;
@@ -31,7 +33,13 @@ h3	{
 	font-family:serif;
 	font-weight:normal;
 	float: left;
-	font-size: 30px;
+	font-size: 18px;
+}
+h4	{
+	margin: 0 10%;
+	font-family:serif;
+	font-weight:normal;
+	font-size:20px;
 }
 
 p {
@@ -40,7 +48,7 @@ p {
 }
 
 a {
-	font-size: 30px;
+	font-size: 20px;
 }
 .navigaatio {
 	float: left;
@@ -51,6 +59,13 @@ a {
 	padding: 20px;
 	margin-left: 50px
 }
+.aukioloajat {
+	font-family: Georgia; 
+	font-style: italic; 
+	font-size:18px;
+	margin-left: 220px
+}
+
 @media only screen and (max-width: 600px) {
 	body {
 	  background-color: lightblue;
@@ -60,5 +75,6 @@ a {
   img {
 	width: 100%;
 	height: auto;
+	max-width:500px;
   }
 
