@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background-color: lightblue;
+  background-color: #FFFFCC;
 }
 .otsikko {
 	overflow: hidden;
@@ -65,28 +65,59 @@ p {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #9ACD32;
+	background-color: #6F4E37;
 }
 
 .navigaatio li {
 	float: left;
 }
 
-.navigaatio li a:hover {
-	background-color: #ABDE43;
+.navigaatio li a:hover, .dropdown-content a:hover, .dropdown:hover{
+	background-color: #795841;
 }
 
 .active {
-	background-color: #89BC12;
+	background-color: #65442D;
 }
 
-.navigaatio li a {
+.navigaatio li a, .dropbtn {
   display: block;
-  color: black;
+  color: #FFFFCC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
+li.dropdown {
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #6F4E37;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  float: right;
+}
+
 
 @media only screen and (max-width: 600px) {
 	body {

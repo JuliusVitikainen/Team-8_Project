@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KahvilaYritys</title>
   </head>
-  <link rel="stylesheet" type="text/css" href="website.css">
+  <link rel="stylesheet" type="text/css" href="../website.css">
   <body>
 	<div class="otsikko" >
-		<img src="Logo_Placeholder.png" alt="yrityksen logo">
+		<img src="../Logo_Placeholder.png" alt="yrityksen logo">
 		<h1>Kahvila OY</h1>
 	</div>
 		<div class="navigaatio">
-			<li><a href="index.html">Frontpage</a></li>
+			<ul>
+			<li><a class="active" href="index.html">Frontpage</a></li>
 			<li><a href="hinnasto.html">Products</a></li>
 			<li><a href="yhteystiedot ja sijainti.html">Contacts</a></li>
-			<li><a href="kieli.html">Language</a></li> 
+			<li class="dropdown" style="float:right"><a href="kieli.html">Language</a>
+				<div class="dropdown-content">
+				<a href="../index.html">Finnish</a>
+				<a href="index.html">English</a>
+				</div>
+			</li> 
 			</ul>
 		</div>
       <p>
