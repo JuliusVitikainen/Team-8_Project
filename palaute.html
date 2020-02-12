@@ -31,25 +31,43 @@
 
 	<p><h4><ul>
 	<div class="container">
-  <form name="htmlform" method="post" action="html_form_send.php">
+</div>
+  <form class="gform" method="post" data-email="oskar.lehto@edu.turkuamk.fi" action="https://script.google.com/macros/s/AKfycbwqUn5MkLsqWaMf0n-7OCxMiQVrVshCy-1n_WmMKJalZY-PG0Y/exec">
+
 
     <label for="fname">Etunimi ja Sukunimi</label>
     <input type="text" id="nimi" name="etujasukunimi" placeholder="Nimesi...">
+	
+	
+	
+	
+	
+	
+	
+	
 
     <label for="lname">Sähköposti</label>
-    <input type="text" id="sposti" name="sählöposti" placeholder="Sähköpostisi">
+    <input type="text" id="sposti" name="sähköposti" placeholder="Sähköpostisi">
 
 
     <label for="subject">Palaute</label>
     <textarea id="palaute" name="palautetta" placeholder="Vapaamuotoinen palaute" style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
+	  <div style="display:none" class="thankyou_message">
+ <h2><em>Kiitos vastauksesta</em> Otamme yhteyttä mahdollisimman pian!
+ </h2>
+</div>
 	</p></h4><ul>
+	
+
   </form>
 </div>
 
       </p>
 
     </h1>
+	<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
   </body>
 </html>

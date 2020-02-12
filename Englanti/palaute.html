@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<meta charset=UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team8Yrityssivut</title>
   </head>
@@ -30,19 +31,25 @@
 
 	<p><h4><ul>
 	<div class="container">
-  <form name="htmlform" method="post" action="html_form_send.php">
+  <form class="gform" method="post" data-email="oskar.lehto@edu.turkuamk.fi" action="https://script.google.com/macros/s/AKfycbwqUn5MkLsqWaMf0n-7OCxMiQVrVshCy-1n_WmMKJalZY-PG0Y/exec">
+
 
     <label for="fname">First and Lastname</label>
     <input type="text" id="nimi" name="etujasukunimi" placeholder="Your name...">
 
     <label for="lname">Email</label>
-    <input type="text" id="sposti" name="sählöposti" placeholder="Your email...">
+    <input type="text" id="sposti" name="sähköposti" placeholder="Your email...">
 
 
     <label for="subject">Feedback</label>
     <textarea id="palaute" name="palautetta" placeholder="Feedback..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
+	<div style="display:none" class="thankyou_message">
+ <h2><em>Thank you for the feedback!</em> We will contact you soon!
+ </h2>
+</div>
+	</p></h4><ul>
 	</p></h4><ul>
   </form>
 </div>
@@ -50,5 +57,7 @@
       </p>
 
     </h1>
+		<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
   </body>
 </html>
